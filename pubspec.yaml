@@ -1,0 +1,218 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  #flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/ceyentra-education-hifi/images/star-2.png
+    - assets/ceyentra-education-hifi/images/group-59.png
+    - assets/ceyentra-education-hifi/images/group-59-c7o.png
+    - assets/ceyentra-education-hifi/images/star-2-3oK.png
+    - assets/ceyentra-education-hifi/images/union.png
+    - assets/ceyentra-education-hifi/images/star-2-Tw3.png
+    - assets/ceyentra-education-hifi/images/group-70.png
+    - assets/ceyentra-education-hifi/images/star-2-eow.png
+    - assets/ceyentra-education-hifi/images/search-icon.png
+    - assets/ceyentra-education-hifi/images/star-2-SL5.png
+    - assets/ceyentra-education-hifi/images/vector-1.png
+    - assets/ceyentra-education-hifi/images/star-2-kM3.png
+    - assets/ceyentra-education-hifi/images/star-2-sDF.png
+    - assets/ceyentra-education-hifi/images/group-44.png
+    - assets/ceyentra-education-hifi/images/group-53.png
+    - assets/ceyentra-education-hifi/images/search-icon-hRP.png
+    - assets/ceyentra-education-hifi/images/vector-1-F8h.png
+    - assets/ceyentra-education-hifi/images/star-2-4dB.png
+    - assets/ceyentra-education-hifi/images/group-59-Nds.png
+    - assets/ceyentra-education-hifi/images/star-2-V3b.png
+    - assets/ceyentra-education-hifi/images/star-2-X6V.png
+    - assets/ceyentra-education-hifi/images/star-2-HYq.png
+    - assets/ceyentra-education-hifi/images/group-64.png
+    - assets/ceyentra-education-hifi/images/star-2-o2V.png
+    - assets/ceyentra-education-hifi/images/star-2-ubK.png
+    - assets/ceyentra-education-hifi/images/group-59-Cw7.png
+    - assets/ceyentra-education-hifi/images/star-2-dPb.png
+    - assets/ceyentra-education-hifi/images/ellipse-2.png
+    - assets/ceyentra-education-hifi/images/group-24.png
+    - assets/ceyentra-education-hifi/images/group-64-Lwo.png
+    - assets/ceyentra-education-hifi/images/union-Exd.png
+    - assets/ceyentra-education-hifi/images/star-2-G4V.png
+    - assets/ceyentra-education-hifi/images/group-18.png
+    - assets/ceyentra-education-hifi/images/union-uxR.png
+    - assets/ceyentra-education-hifi/images/star-2-3RX.png
+    - assets/ceyentra-education-hifi/images/star-2-4Yu.png
+    - assets/ceyentra-education-hifi/images/star-2-i53.png
+    - assets/ceyentra-education-hifi/images/star-2-ygR.png
+    - assets/ceyentra-education-hifi/images/group-59-ygy.png
+    - assets/ceyentra-education-hifi/images/star-2-iny.png
+    - assets/ceyentra-education-hifi/images/vector-1-MKT.png
+    - assets/ceyentra-education-hifi/images/group-64-NJy.png
+    - assets/ceyentra-education-hifi/images/group-59-U77.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-myw.png
+    - assets/ceyentra-education-hifi/images/vector.png
+    - assets/ceyentra-education-hifi/images/union-BWV.png
+    - assets/ceyentra-education-hifi/images/group-24-bty.png
+    - assets/ceyentra-education-hifi/images/star-2-RNm.png
+    - assets/ceyentra-education-hifi/images/star-2-CYV.png
+    - assets/ceyentra-education-hifi/images/group-24-ABo.png
+    - assets/ceyentra-education-hifi/images/union-yPK.png
+    - assets/ceyentra-education-hifi/images/group-59-tFP.png
+    - assets/ceyentra-education-hifi/images/star-2-LS9.png
+    - assets/ceyentra-education-hifi/images/group-65.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-Knd.png
+    - assets/ceyentra-education-hifi/images/vector-1-4ny.png
+    - assets/ceyentra-education-hifi/images/group-87.png
+    - assets/ceyentra-education-hifi/images/star-2-yb3.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-Aso.png
+    - assets/ceyentra-education-hifi/images/star-2-UL5.png
+    - assets/ceyentra-education-hifi/images/group-16.png
+    - assets/ceyentra-education-hifi/images/group-53-FzM.png
+    - assets/ceyentra-education-hifi/images/group-59-92d.png
+    - assets/ceyentra-education-hifi/images/group-65-2s7.png
+    - assets/ceyentra-education-hifi/images/group-84.png
+    - assets/ceyentra-education-hifi/images/vector-1-8QM.png
+    - assets/ceyentra-education-hifi/images/group-44-wKj.png
+    - assets/ceyentra-education-hifi/images/group-44-8Qm.png
+    - assets/ceyentra-education-hifi/images/star-2-SRT.png
+    - assets/ceyentra-education-hifi/images/union-ZzV.png
+    - assets/ceyentra-education-hifi/images/star-2-b5F.png
+    - assets/ceyentra-education-hifi/images/star-2-VwK.png
+    - assets/ceyentra-education-hifi/images/search-icon-1Ps.png
+    - assets/ceyentra-education-hifi/images/star-2-7AV.png
+    - assets/ceyentra-education-hifi/images/group-84-1Gh.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-4eH.png
+    - assets/ceyentra-education-hifi/images/group-85.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-n6q.png
+    - assets/ceyentra-education-hifi/images/group-86.png
+    - assets/ceyentra-education-hifi/images/group-21.png
+    - assets/ceyentra-education-hifi/images/union-uqf.png
+    - assets/ceyentra-education-hifi/images/star-2-XTb.png
+    - assets/ceyentra-education-hifi/images/star-2-SKf.png
+    - assets/ceyentra-education-hifi/images/star-2-hmP.png
+    - assets/ceyentra-education-hifi/images/union-2Ym.png
+    - assets/ceyentra-education-hifi/images/star-2-a1j.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-5UH.png
+    - assets/ceyentra-education-hifi/images/star-2-D4h.png
+    - assets/ceyentra-education-hifi/images/vector-1-hvu.png
+    - assets/ceyentra-education-hifi/images/vector-1-12u.png
+    - assets/ceyentra-education-hifi/images/group-65-NWq.png
+    - assets/ceyentra-education-hifi/images/group-86-skR.png
+    - assets/ceyentra-education-hifi/images/vector-1-E2R.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-xK7.png
+    - assets/ceyentra-education-hifi/images/star-2-fmF.png
+    - assets/ceyentra-education-hifi/images/union-fwb.png
+    - assets/ceyentra-education-hifi/images/group-59-TeV.png
+    - assets/ceyentra-education-hifi/images/group-85-uGq.png
+    - assets/ceyentra-education-hifi/images/vector-dqP.png
+    - assets/ceyentra-education-hifi/images/group-21-Pk1.png
+    - assets/ceyentra-education-hifi/images/star-2-sr5.png
+    - assets/ceyentra-education-hifi/images/main-img.png
+    - assets/ceyentra-education-hifi/images/group-93.png
+    - assets/ceyentra-education-hifi/images/rectangle-18.png
+    - assets/ceyentra-education-hifi/images/group-21-AF7.png
+    - assets/ceyentra-education-hifi/images/group-13.png
+    - assets/ceyentra-education-hifi/images/vector-1-aYd.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-okZ.png
+    - assets/ceyentra-education-hifi/images/ellipse-2-F49.png
+    - assets/ceyentra-education-hifi/images/main-img-e1s.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-unM.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-puK.png
+    - assets/ceyentra-education-hifi/images/main-img-V8H.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-DKB.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-9Cq.png
+    - assets/ceyentra-education-hifi/images/rectangle-32.png
+    - assets/ceyentra-education-hifi/images/rectangle-32-KVX.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-dAm.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-paZ.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-tTw.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-Hth.png
+    - assets/ceyentra-education-hifi/images/rectangle-32-Bz5.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-kxd.png
+    - assets/ceyentra-education-hifi/images/rectangle-18-ASy.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
